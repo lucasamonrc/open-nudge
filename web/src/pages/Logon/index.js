@@ -48,7 +48,7 @@ const Logon = () => {
           <button className="button" type="submit">Log in</button>
 
           <Link className="back-link" to="/register">
-            <FiLogIn size={16} color="#e02041" />
+            <FiLogIn size={16} color="#f9cf26" />
             Register now
           </Link>
         </form>

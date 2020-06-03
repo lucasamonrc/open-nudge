@@ -53,7 +53,7 @@ const Profile = () => {
         <span>Welcome, {userName}</span>
         <Link className="button" to="/projects/new">Create new project</Link>
         <button onClick={handleLogout} type="button">
-          <FiPower size={18} color="#E02041" />
+          <FiPower size={18} color="#f9cf26" />
         </button>
       </header>
 

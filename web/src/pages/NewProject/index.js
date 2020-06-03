@@ -50,7 +50,7 @@ const NewProject = () => {
           <p>Describe your project and its needs with as much detail as possible to draw professionals unto it.</p>
 
           <Link className="back-link" to="/profile">
-            <FiArrowLeft size={16} color="#E02041" />
+            <FiArrowLeft size={16} color="#f9cf26" />
             Back to profile
           </Link>
         </section>

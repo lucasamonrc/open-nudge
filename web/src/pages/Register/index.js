@@ -57,7 +57,7 @@ const Register = () => {
           <p>Register to Open Nudge, and start connecting to professionals to help in your project.</p>
 
           <Link className="back-link" to="/logon">
-            <FiArrowLeft size={16} color="#e02041" />
+            <FiArrowLeft size={16} color="#f9cf26" />
             I have an account
           </Link>
         </section>
