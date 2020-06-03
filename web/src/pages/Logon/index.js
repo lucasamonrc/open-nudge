@@ -6,6 +6,7 @@ import api from '../../services/api';
 
 import './styles.css';
 
+import Logo from '../../components/Logo';
 import heroesImg from '../../assets/heroes.svg';
 
 const Logon = () => {
@@ -32,10 +33,7 @@ const Logon = () => {
   return (
     <div className="logon-container">
       <section className="form">
-        <h1 className="logo-h1">
-          <span role="img" aria-label="lock" >🔓 </span> 
-          Open Nudge
-        </h1>
+        <Logo />
 
         <form onSubmit={handleLogin}>
           <h1>Log in to Open Nudge</h1>
