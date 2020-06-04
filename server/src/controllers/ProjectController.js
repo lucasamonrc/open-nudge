@@ -3,14 +3,9 @@ const connection = require('../database/connection');
 module.exports = {
   async index(req, res) {
     try {
-      const { page = 1 } = req.query;
-
-      const [count] = await connection('projects').count();
 
       const projects = await connection('projects')
         .join('users', 'users.id', '=', 'projects.user_id')
-        .limit(5)
-        .offset((page - 1) * 5)
         .select([
           'projects.*',
           'users.name',
@@ -20,8 +15,6 @@ module.exports = {
           'users.state',
           'users.url'
         ]);
-
-      res.header('X-Total-Count', count['count(*)']);
 
       return res.json(projects);
     } catch (err) {
