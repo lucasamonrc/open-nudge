@@ -56,19 +56,19 @@ const Profile = () => {
           <FiPower size={18} color="#f9cf26" />
         </button>
       </header>
-
+      
       <h1>Existing Projects</h1>
 
       <ul>
         {projects.map(project => (
           <li key={project.id}>
-            <struser>Project:</struser>
+            <strong>Project:</strong>
             <p>{project.title}</p>
 
-            <struser>Description:</struser>
+            <strong>Description:</strong>
             <p>{project.description}</p>
 
-            <struser>Role:</struser>
+            <strong>Role:</strong>
             <p>{project.role}</p>
 
             <button onClick={() => handleDeleteProject(project.id)} type="button">
@@ -77,6 +77,7 @@ const Profile = () => {
           </li>
         ))}
       </ul>
+
     </div>
   );
 }

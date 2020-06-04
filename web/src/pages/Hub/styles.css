@@ -1,0 +1,92 @@
+.hub-container {
+  width: 100%;
+  max-width: 1180px;
+  padding: 0 30px;
+  margin: 32px auto;
+}
+
+.hub-container header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  align-items: baseline;
+  margin-bottom: 30px;
+  width: 100%;
+}
+
+hr {
+  margin-bottom: 20px;
+}
+
+.hub-container header h1 {
+  font-size: 24px;
+  text-align: center;
+  margin: 12px 0 20px;
+}
+
+.hub-container .navlink {
+  text-decoration: none;
+  color: #f9cf26;
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+}
+
+.hub-container h1 {
+  margin-bottom: 24px;
+}
+
+.hub-container p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.hub-container ul {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 24px;
+  list-style: none;
+}
+
+.hub-container ul li {
+  background: #FFF;
+  padding: 24px;
+  border-radius: 8px;
+  position: relative;
+}
+
+.hub-container ul li strong {
+  display: block;
+  margin-bottom: 10px;
+  color: #41414d;
+  font-size: 16px;
+}
+
+.hub-container ul li p {
+  color: #737380;
+  line-height: 21px;
+  font-size: 16px;
+}
+
+.hub-container ul li p + strong {
+  margin-top: 32px;
+}
+
+.hub-container .a-group {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hub-container a.button {
+  width: 48%;
+}
+
+div.hub-container button.button {
+  display: block;
+  width: 50%;
+  margin: 42px auto 12px;
+}
